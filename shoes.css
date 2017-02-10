@@ -1,12 +1,144 @@
-table {
-  color: white;
-  background-color: #FF333D;
+header img{
+  height:25px;
+  width:50px;
+  padding:10px;
 }
+
+header div{
+  display: inline-block;
+  font-family: lato;
+  font-size: 13px;
+  color: #F65632;
+  padding:0 5px;
+}
+/*Can't figure out how to align the divs to center the picture*/
+
+.my_account{
+  text-align: right;
+  font-family: lato;
+  font-size: 13px;
+  color: #F65632;
+  padding:0 5px;
+  margin-left: 800px;
+  display: inline-block;
+}
+
+.product_spotlight{
+  background-color: #FF333D;
+  padding: 60px 170px;
+  margin-top: 20px;
+}
+
+.first_shoe{
+  height: 280px;
+  width: 550px;
+  padding-top: 30px;
+}
+
 
 h1 {
+  color: white;
   text-align: right;
+  font-family: fira sans;
+  font-size: 45px;
 }
 
-p {
+
+.product_details{
+  display: inline-block;
+  margin-left: 170px;
+  color: #F65632;
+  font-family: roboto;
+  padding: 20px 0 0;
+}
+
+.size_fit{
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 650px;
+  color: #F65632;
+  font-family: roboto;
+  padding: 20px 0 0;
+}
+
+.reviews{
+  display: inline-block;
+  color: #F65632;
+  font-family: roboto;
+  padding: 20px 0 0;
+}
+
+.underline{
+  margin-left: 170px;
+  color: #FD9379;
+}
+/*Can't figure out how to make the lines closer to product details*/
+
+
+.product_content{
+  margin-left:170px;
+  margin-bottom: 150px;
+  font-family: open sans;
+}
+
+.recommended_products{
+  background-color: #EFD7DB;
+  text-align: center;
+  font-family: open sans;
+  padding: 5px;
+}
+
+
+.shoes{
+  height:200px;
+  width:300px;
+  padding:10px;
+  margin: 0 20px;
+  display: inline-block;
+}
+
+.more_products{
+  background:#FF333D;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.product{
+  display: inline-block;
   text-align: left;
+}
+
+.product_name, .product_price{
+  font-family: fira sans;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.product_season{
+  margin-left: 40px;
+}
+
+footer img{
+  height:25px;
+  width:50px;
+  padding:10px;
+}
+
+footer div{
+  display: inline-block;
+  font-family: lato;
+  font-size: 13px;
+  color: #F65632;
+  padding:0 5px;
+}
+
+
+.Company{
+  text-align: right;
+  font-family: lato;
+  font-size: 13px;
+  padding:0 5px;
+  margin-left: 350px;
+  display: inline-block;
+  color: grey;
 }
